@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Tailwind -->
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body class="font-poppins">
+    <!-- Navbar -->
+    <nav class="bg-white">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="flex justify-between">
+          <!-- Vulkan Logo -->
+          <div>
+            <a
+              href="#"
+              class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900"
+            >
+              <span class="font-bold">Vulkan.store</span>
+            </a>
+          </div>
+
+          <!-- Main Nav -->
+
+          <div class="hidden items-center space-x-1 font-semibold md:flex">
+            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
+              >Home</a
+            >
+            <a href="#" class="py-5 px-3 text-gray-700 hover:text-gray-900"
+              >Pricing</a
+            >
+          </div>
+
+          <!-- Search & Cart -->
+          <div class="hidden items-center space-x-1 md:flex">
+            <a href="" class="py-5 px-3"><i class="fas fa-search"></i></a>
+            <a href="" class="py-5 px-3"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+          </div>
+
+          <!-- Responsive Button -->
+          <div class="flex items-center md:hidden">
+            <button class="mobile-menu-button">
+              <svg
+                class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Responsive Menu -->
+      <div class="mobile-menu hidden md:hidden">
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
+          >Features</a
+        >
+        <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
+          >Pricing</a
+        >
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="py-32 text-center"></div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
