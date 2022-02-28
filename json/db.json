@@ -1,0 +1,22 @@
+{
+    "products": [
+    { 
+        "id": 1, "title": "short-sleeve unisex", "types": "Best Seller", "price": "150.000.00,-", "image": "https://res.cloudinary.com/febfebpro/image/upload/v1646031935/image/img-product-short-sleeve_fmmxps.png", "size": ["S","M","L","XL","XXL"]
+    },
+    { 
+        "id": 2, "title": "long-sleeve unisex", "types": "Best Seller", "price": "180.000.00,-", "image": "https://res.cloudinary.com/febfebpro/image/upload/v1646031938/image/image-product-long-sleeve_ehlc6r.jpg", "size": ["S","M","L","XL","XXL"]
+    },
+    { 
+        "id": 3, "title": "shoe unisex", "types": "Best Seller", "price": "400.000.00,-", "image": "https://res.cloudinary.com/febfebpro/image/upload/v1646031937/image/image-product-shoe_nwivg9.jpg", "size": ["S","M","L","XL","XXL"]
+    },
+    { 
+        "id": 4, "title": "hoodie unisex", "types": "Best Seller", "price": "300.000.00,-", "image": "https://res.cloudinary.com/febfebpro/image/upload/v1646031938/image/image-product-hoodie_lesdgg.jpg", "size": ["S","M","L","XL","XXL"]
+    },
+    { 
+        "id": 5, "title": "mask", "types": "Best Seller", "price": "20.000.00,-", "image": "https://res.cloudinary.com/febfebpro/image/upload/v1646031936/image/image-product-mask_upnih5.jpg", "size": ["S","M","L","XL","XXL"]
+    },
+    { 
+        "id": 6, "title": "sock", "types": "Best Seller", "price": "50.000.00,-", "image": "https://res.cloudinary.com/febfebpro/image/upload/v1646031940/image/image-product-sock_hcc3it.jpg", "size": ["S","M","L","XL","XXL"]
+    }
+    ]
+}
