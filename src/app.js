@@ -21,11 +21,15 @@ fetch(url)
     for (let i=0; i<data.length; i++){
       var div = document.createElement("div")
       div.innerHTML = `
-      <div class='container p-2'>
-      id : ${data[i].id} nama : ${data[i].title}
+      <a href='/'>
+      <div class='p-2' style="width: 200px;">
+      <img src=${data[i].image} class='w-120px' />
+      <h2 class="text-sm text-left">${data[i].price}</h2>
+      <h1 class="text-base">${data[i].title}</h1>
       </div>
+      </a>
       `
-      products.appendChild(div)
+      products.appendChild(div).className = "grid-cols-4 md:grid-cols-6 flex flex-col items-center"
       console.log(data)
     }
   }
